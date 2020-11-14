@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="external-link" width="16" height="16" viewBox="0 0 16 16">
+    <defs>
+        <style>
+            .cls-2{fill:#21866c}
+        </style>
+    </defs>
+    <path id="Path_6" d="M14.333 8.333a.667.667 0 0 0-.666.667v4a.667.667 0 0 1-.667.667H5A.667.667 0 0 1 4.333 13V5A.667.667 0 0 1 5 4.333h4A.667.667 0 1 0 9 3H5a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V9a.667.667 0 0 0-.667-.667z" class="cls-2" transform="translate(-1 -1)"/>
+    <path id="Path_7" d="M14.331 4.333h1.053L11.191 8.52a.669.669 0 1 0 .947.947l4.193-4.187v1.053a.667.667 0 1 0 1.333 0V3.667A.667.667 0 0 0 17 3h-2.669a.667.667 0 1 0 0 1.333z" class="cls-2" transform="translate(-3.665 -1)"/>
+</svg>

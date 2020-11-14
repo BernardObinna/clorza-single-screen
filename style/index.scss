@@ -1,0 +1,143 @@
+@font-face {
+  font-family: Aribau;
+  src: url("./fonts/Aribau/Aribau_Grotesk_UltraLight.otf");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Aribau;
+  src: url("./fonts/Aribau/Aribau_Grotesk_ExtraLight.otf");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Aribau;
+  src: url("./fonts/Aribau/Aribau Grotesk Thin.otf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Aribau;
+  src: url("./fonts/Aribau/Aribau Grotesk Regular.otf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Aribau;
+  src: url("./fonts/Aribau/Aribau Grotesk Medium.otf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Aribau;
+  src: url("./fonts/Aribau/Aribau Grotesk Bold.otf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Aribau;
+  src: url("./fonts/Aribau/Aribau Grotesk Black.otf");
+  font-weight: 800;
+  font-style: normal;
+}
+
+* {
+  font-family: Aribau !important;
+}
+
+body {
+  font-size: 16px;
+  position: absolute;
+  min-height: 100vh;
+  width: 100%;
+}
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 1.1;
+  color: #344854;
+}
+
+p {
+  font-size: 1.25rem;
+  line-height: 1.67;
+}
+
+// layout
+.d-flex {
+  display: flex;
+}
+
+// /background
+.bg-green {
+  background-color: #21866c;
+  &-faint {
+    background-color: rgba(33, 134, 109, 0.1);
+  }
+}
+
+.bg-cyan-faint {
+  background-color: rgba(103, 120, 138, 0.1);
+}
+
+.bg-darg-gray {
+  background-color: #344854;
+}
+
+// button
+.btn-green {
+  background-color: #21866c;
+}
+
+// text-color
+.text-green {
+  color: #21866c;
+}
+
+.text-gray {
+  color: #67788a;
+}
+
+.mr-112 {
+  margin-right: 5rem;
+}
+
+.mt-2-3-r {
+  margin-top: 2.3rem;
+}
+
+.h-97 {
+  min-height: 97vh !important;
+}
+
+@media screen and (min-width: 1200px) {
+  .w-xl-65 {
+    width: 65%;
+  }
+
+  .mx-180 {
+    margin-right: 9.25rem !important;
+    margin-left: 9.25rem !important;
+  }
+
+  .mt-241 {
+    margin-top: 13.06rem !important;
+  }
+
+  .mb-543 {
+    margin-bottom: 21.94rem !important;
+  }
+}
+
+.splash-img {
+  position: absolute;
+  right: -47%;
+  top: 20%;
+  width: 65%;
+}
